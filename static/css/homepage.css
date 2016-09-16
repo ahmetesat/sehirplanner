@@ -1,0 +1,90 @@
+.nav{
+    line-height: 80px ;
+    height:80px;
+    padding-top: 0px;
+}
+
+#added_scrolled {
+
+    overflow-y: scroll;
+    height: 300px;
+
+}
+
+div.scrolled {
+    background-color: #e0e0e0;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1000px;
+
+    padding-left: 30px;
+}
+
+#head {
+    background-color: #009FB2;
+}
+
+#no_padding{
+    padding:0px
+}
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+
+}
+
+#bottom {
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 5%;
+}
+
+#bottom2 {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 2%;
+
+}
+
+.panel-default {
+    border-color: #009FB2;
+}
+
+#footerwrap {
+    background: #2b2b2b;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+#footerwrap h4 {
+    color: white;
+}
+
+#head2 {
+    background-color: #009FB2;
+    color: white;
+}
+
+input[type=checkbox] {
+    /* All browsers except webkit*/
+    transform: scale(2);
+
+    /* Webkit browsers*/
+    -webkit-transform: scale(2);
+
+}
+
+.paddingClass {
+
+    margin: 20px;
+    padding: 5px;
+}
